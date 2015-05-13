@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     tools:context=".NewsList"
+    android:backgroundTint="@color/abc_primary_text_material_light"
+    android:backgroundTintMode="screen">
+
+  <com.happy.cric8.AspectRatioImageView
+             android:id="@+id/live_image"
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:scaleType="center"
+             android:adjustViewBounds="true"
+             android:background="@drawable/ic_launcher"
+
+      />
+
+  <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/swipe_container"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+  <ListView android:id="@+id/news_list"
+            android:layout_height="wrap_content"
+            android:background="@color/translucency"
+            android:listSelector="@drawable/list_selector"
+            android:layout_width="match_parent">
+
+  </ListView>
+
+  </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

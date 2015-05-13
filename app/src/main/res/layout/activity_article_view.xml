@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.happy.cric8.ArticleView">
+
+    <WebView android:id="@+id/web_page"
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:visibility="invisible"
+    />
+
+    <RelativeLayout android:id="@+id/shareBtn"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="40dp"
+            android:clickable="true"
+            android:onClick="shareLink"
+            android:background="@drawable/circular_btn"
+            android:layout_width="wrap_content"
+            android:textSize="32sp"
+            android:visibility="visible"
+            android:layout_gravity="right|bottom" >
+
+
+
+
+
+     <Button android:layout_width="25dp"
+             android:layout_height="25dp"
+             android:layout_centerHorizontal="true"
+             android:layout_centerVertical="true"
+             android:clickable="true"
+             android:onClick="shareLink"
+             android:background="@drawable/ic_share" >
+
+     </Button>
+
+        </RelativeLayout>
+
+    <ProgressBar
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:id="@+id/load_article"
+        android:visibility="visible"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center" />
+
+
+</FrameLayout>

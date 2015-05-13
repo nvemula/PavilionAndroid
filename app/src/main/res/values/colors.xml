@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="pink">#E91E63</color>
+    <color name="indigo">#3F51B5</color>
+    <color name="lime">#76F900</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="pav_green">#4A913C</color>
+    <color name="trans_pav_green">#804A913C</color>
+
+    <color name="light_blue">#03A9F4</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="sky_blue">#83D0F4</color>
+    <color name="red">#ff0000</color>
+
+    <color name="dim_white">#9D9E9E</color>
+    <color name="light_green">#DBEA79</color>
+    <color name="trans_white">#80FFFFFF</color>
+    <color name="trans_grey">#80000000</color>
+    <color name="grey">#808080</color>
+    <color name="trans_black">#808080</color>
+    <color name="blue_aqua">#0099CC</color>
+    <color name="dark_blue">#244082</color>
+    <color name="silver">#666666</color>
+    <color name="date_grid">#4D4D4D</color>
+    <color name="ash">#4D4D4D</color>
+    <color name="white_bg">#E6E6E6</color>
+    <color name="green">#2AB325</color>
+
+    <color name="faded_yellow">#F2F5A9</color>
+
+    <color name="translucency">#80000000</color>
+
+</resources>
